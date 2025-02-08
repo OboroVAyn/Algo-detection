@@ -4,12 +4,15 @@
 The goal of this project is to build a machine learning model to detect fake banknotes from a given dataset. The dataset includes various features that describe the characteristics of the banknotes, and our objective is to predict whether a given banknote is real or fake.
 
 ## Dataset
-- 📂 **Dataset**: UCI Machine Learning Repository - Banknote Authentication dataset
+- 📂 **Dataset**: billets - Banknote Authentication dataset : The dataset used in this project contains **1,500 rows** and multiple features related to banknote characteristics.
 - 💳 **Features**: 
-  - Variance of wavelet transformed image (continuous)
-  - Skewness of wavelet transformed image (continuous)
-  - Curtosis of wavelet transformed image (continuous)
-  - Entropy of image (continuous)
+  - **Length (cm)** – Length of the banknote  
+  - **Diagonal (cm)** – Diagonal measurement of the banknote  
+  - **Height Left (cm)** – Height of the banknote on the left side  
+  - **Height Right (cm)** – Height of the banknote on the right side  
+  - **Margin Low (cm)** – Lower margin of the banknote  
+  - **Margin Up (cm)** – Upper margin of the banknote  
+  - **Is_Genuine** (True/False) – Indicates whether the banknote is genuine (True) or fake (False)  
 
 ## Methodology
 1. **Data Preprocessing**:
@@ -57,5 +60,5 @@ You can access the full code and analysis in this [Jupyter Notebook](https://git
 This project demonstrates how machine learning can be applied to the problem of detecting counterfeit banknotes. By using a simple model like Logistic Regression, we were able to achieve high accuracy and effectively distinguish between real and fake notes.
 
 ## Contact Me
-- 🔗 [LinkedIn](https://linkedin.com/in/FrankMoukalla)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/frank-moukalla-mboka-132aab26b)
 - 📧 frank.moukallamboka@gmail.com
